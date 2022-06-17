@@ -5,11 +5,6 @@ menuBtn.onclick = () =>{
    menuBtn.classList.toggle('fa-times');
    navbar.classList.toggle('active');
 };
-
-menu.onclick = () =>{
-   menu.classList.toggle('fa-times');
-   navbar.classList.toggle('active');
- }
  
  document.querySelector('#login-btn').onclick = () =>{
    document.querySelector('.login-form-container').classList.toggle('active');
@@ -19,10 +14,6 @@ menu.onclick = () =>{
    document.querySelector('.login-form-container').classList.remove('active');
  }
 
-window.onscroll = () =>{
-   menuBtn.classList.remove('fa-times');
-   navbar.classList.remove('active');
-};
 
 var swiper = new Swiper(".home-slider", {
    grabCursor:true,
@@ -202,5 +193,5 @@ cartshow.addEventListener("click",function(){
    document.querySelector(".cart").style.display = 'flex'
 })
 cartbtn.addEventListener("click",function(){
-   document.querySelector(".cart").style.display = " none"
+   document.querySelector(".cart").style.display = 'none'
 })

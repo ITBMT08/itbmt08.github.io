@@ -115,7 +115,7 @@ section{
 
 .login-form-container{
    position: fixed;
-   top:-105%; left:0;
+   top:-200%; left:0;
    height:100%;
    width:100%;
    display: flex;
@@ -379,7 +379,7 @@ section{
    text-align: center;
    padding:4rem 2rem;
    border-radius: .5rem;
-   transform: scale(.9);
+   /* transform: scale(.9); */
    opacity: .5;
    margin-bottom: 4rem;
    cursor: pointer;
@@ -394,7 +394,7 @@ section{
 }
 
 .food .swiper-slide-active{
-   transform: scale(1);
+   /* transform: scale(1); */
    opacity: 1;
    background: var(--white);
    box-shadow: var(--box-shadow);
@@ -577,7 +577,7 @@ section{
 }
 
 .menu .slide .box-container .box:hover{
-   transform: scale(.9);
+   /* transform: scale(.9); */
    cursor: pointer;
 }
 
