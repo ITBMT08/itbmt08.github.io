@@ -879,5 +879,20 @@ section{
   #login-btn i{
       display: block;
   }
+  .cart .cart-form{
+   width: 50rem;
+}
+
+.cart .h2{
+   font-size: 15vw;
+}
+
+.cart .cart-form form{
+   color:var(--dark-bg);
+}
+
+.cart .cart-form table thead tr th{
+   padding: 0 3rem ;
+}
 }
 
